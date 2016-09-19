@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2FADBDA173F75AD6DC02CB /* Pods_BKDouyuTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C83E8F8DDA7CFD42ACEBB2 /* Pods_BKDouyuTVTests.framework */; };
+		24612AD61D8F926A003D704D /* CYLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24612AD51D8F926A003D704D /* CYLayoutConstraint.swift */; };
+		24612AD91D8FAFDE003D704D /* BKWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24612AD71D8FAFDE003D704D /* BKWelcomeViewController.swift */; };
+		24612ADA1D8FAFDE003D704D /* BKWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24612AD81D8FAFDE003D704D /* BKWelcomeViewController.xib */; };
+		24612ADD1D8FB1DB003D704D /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24612ADB1D8FB1DB003D704D /* Follow.storyboard */; };
+		24612ADF1D8FB1E9003D704D /* profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24612ADE1D8FB1E9003D704D /* profile.storyboard */; };
+		24612AE41D8FB552003D704D /* BKProflieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24612AE21D8FB552003D704D /* BKProflieViewController.swift */; };
+		24612AE51D8FB552003D704D /* BKProflieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24612AE31D8FB552003D704D /* BKProflieViewController.xib */; };
+		24612AE81D8FB562003D704D /* BKFollowVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24612AE61D8FB562003D704D /* BKFollowVIewController.swift */; };
+		24612AE91D8FB562003D704D /* BKFollowVIewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24612AE71D8FB562003D704D /* BKFollowVIewController.xib */; };
+		24612AEC1D8FB577003D704D /* BKHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24612AEA1D8FB577003D704D /* BKHomeViewController.swift */; };
+		24612AF01D8FB59F003D704D /* BKLivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24612AEE1D8FB59F003D704D /* BKLivingViewController.swift */; };
+		24612AF11D8FB59F003D704D /* BKLivingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24612AEF1D8FB59F003D704D /* BKLivingViewController.xib */; };
+		24612AF61D8FB6DD003D704D /* BKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24612AF51D8FB6DD003D704D /* BKTabBarController.swift */; };
+		24612AF81D8FB701003D704D /* BKSegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24612AF71D8FB701003D704D /* BKSegmentControlView.swift */; };
+		24D0A1911D8FD385002C36D9 /* BKRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A18F1D8FD385002C36D9 /* BKRecommendViewController.swift */; };
+		24D0A1921D8FD385002C36D9 /* BKRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D0A1901D8FD385002C36D9 /* BKRecommendViewController.xib */; };
+		24D0A1941D8FD398002C36D9 /* BKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1931D8FD398002C36D9 /* BKBaseViewController.swift */; };
+		24D0A1961D8FD4AF002C36D9 /* BKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1951D8FD4AF002C36D9 /* BKNavigationController.swift */; };
+		24D0A1AA1D8FD59E002C36D9 /* BKFoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1981D8FD59E002C36D9 /* BKFoundationExtension.swift */; };
+		24D0A1AB1D8FD59E002C36D9 /* BKStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1991D8FD59E002C36D9 /* BKStringExtension.swift */; };
+		24D0A1AC1D8FD59E002C36D9 /* BKTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A19A1D8FD59E002C36D9 /* BKTableViewExtension.swift */; };
+		24D0A1AD1D8FD59E002C36D9 /* NSLayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A19B1D8FD59E002C36D9 /* NSLayoutConstraintExtension.swift */; };
+		24D0A1AE1D8FD59E002C36D9 /* NSObject+IvarNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A19D1D8FD59E002C36D9 /* NSObject+IvarNull.m */; };
+		24D0A1AF1D8FD59E002C36D9 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A19F1D8FD59E002C36D9 /* NSString+Extension.m */; };
+		24D0A1B01D8FD59E002C36D9 /* NSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A01D8FD59E002C36D9 /* NSStringExtension.swift */; };
+		24D0A1B11D8FD59E002C36D9 /* SwiftColorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A11D8FD59E002C36D9 /* SwiftColorLog.swift */; };
+		24D0A1B21D8FD59E002C36D9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A21D8FD59E002C36D9 /* UIColorExtension.swift */; };
+		24D0A1B31D8FD59E002C36D9 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A31D8FD59E002C36D9 /* UIImageExtension.swift */; };
+		24D0A1B41D8FD59E002C36D9 /* UITabBarItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A51D8FD59E002C36D9 /* UITabBarItem+Extension.m */; };
+		24D0A1B51D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A71D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m */; };
+		24D0A1B61D8FD59E002C36D9 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A81D8FD59E002C36D9 /* UIViewControllerExtension.swift */; };
+		24D0A1B71D8FD59E002C36D9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A91D8FD59E002C36D9 /* UIViewExtension.swift */; };
 		24DD23D11D8F875800B4F427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DD23CF1D8F875800B4F427 /* Main.storyboard */; };
 		24DD23D31D8F875800B4F427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DD23D21D8F875800B4F427 /* Assets.xcassets */; };
-		24DD23D61D8F875800B4F427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DD23D41D8F875800B4F427 /* LaunchScreen.storyboard */; };
 		24DD23E11D8F875900B4F427 /* BKDouyuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD23E01D8F875900B4F427 /* BKDouyuTVTests.swift */; };
 		24DD23EC1D8F875900B4F427 /* BKDouyuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD23EB1D8F875900B4F427 /* BKDouyuTVUITests.swift */; };
 		24DD24021D8F882300B4F427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD24011D8F882300B4F427 /* AppDelegate.swift */; };
-		24DD24041D8F884500B4F427 /* BKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD24031D8F884500B4F427 /* BKTabBarController.swift */; };
 		24DD24061D8F892400B4F427 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DD24051D8F892400B4F427 /* Home.storyboard */; };
 		24DD24091D8F89E400B4F427 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DD24071D8F89E400B4F427 /* Live.storyboard */; };
+		6A607BE07A2F25E1E4E63D6B /* Pods_BKDouyuTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7382575C99F528A6727389FA /* Pods_BKDouyuTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +68,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24612AD51D8F926A003D704D /* CYLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLayoutConstraint.swift; sourceTree = "<group>"; };
+		24612AD71D8FAFDE003D704D /* BKWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKWelcomeViewController.swift; sourceTree = "<group>"; };
+		24612AD81D8FAFDE003D704D /* BKWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKWelcomeViewController.xib; sourceTree = "<group>"; };
+		24612ADC1D8FB1DB003D704D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BKDouyuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		24612ADE1D8FB1E9003D704D /* profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = profile.storyboard; sourceTree = "<group>"; };
+		24612AE21D8FB552003D704D /* BKProflieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKProflieViewController.swift; sourceTree = "<group>"; };
+		24612AE31D8FB552003D704D /* BKProflieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKProflieViewController.xib; sourceTree = "<group>"; };
+		24612AE61D8FB562003D704D /* BKFollowVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKFollowVIewController.swift; sourceTree = "<group>"; };
+		24612AE71D8FB562003D704D /* BKFollowVIewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKFollowVIewController.xib; sourceTree = "<group>"; };
+		24612AEA1D8FB577003D704D /* BKHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKHomeViewController.swift; sourceTree = "<group>"; };
+		24612AEE1D8FB59F003D704D /* BKLivingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKLivingViewController.swift; sourceTree = "<group>"; };
+		24612AEF1D8FB59F003D704D /* BKLivingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKLivingViewController.xib; sourceTree = "<group>"; };
+		24612AF51D8FB6DD003D704D /* BKTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKTabBarController.swift; sourceTree = "<group>"; };
+		24612AF71D8FB701003D704D /* BKSegmentControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKSegmentControlView.swift; sourceTree = "<group>"; };
+		24D0A18F1D8FD385002C36D9 /* BKRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKRecommendViewController.swift; sourceTree = "<group>"; };
+		24D0A1901D8FD385002C36D9 /* BKRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKRecommendViewController.xib; sourceTree = "<group>"; };
+		24D0A1931D8FD398002C36D9 /* BKBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKBaseViewController.swift; sourceTree = "<group>"; };
+		24D0A1951D8FD4AF002C36D9 /* BKNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKNavigationController.swift; sourceTree = "<group>"; };
+		24D0A1981D8FD59E002C36D9 /* BKFoundationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKFoundationExtension.swift; sourceTree = "<group>"; };
+		24D0A1991D8FD59E002C36D9 /* BKStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKStringExtension.swift; sourceTree = "<group>"; };
+		24D0A19A1D8FD59E002C36D9 /* BKTableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKTableViewExtension.swift; sourceTree = "<group>"; };
+		24D0A19B1D8FD59E002C36D9 /* NSLayoutConstraintExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtension.swift; sourceTree = "<group>"; };
+		24D0A19C1D8FD59E002C36D9 /* NSObject+IvarNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IvarNull.h"; sourceTree = "<group>"; };
+		24D0A19D1D8FD59E002C36D9 /* NSObject+IvarNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IvarNull.m"; sourceTree = "<group>"; };
+		24D0A19E1D8FD59E002C36D9 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		24D0A19F1D8FD59E002C36D9 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		24D0A1A01D8FD59E002C36D9 /* NSStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExtension.swift; sourceTree = "<group>"; };
+		24D0A1A11D8FD59E002C36D9 /* SwiftColorLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColorLog.swift; sourceTree = "<group>"; };
+		24D0A1A21D8FD59E002C36D9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		24D0A1A31D8FD59E002C36D9 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		24D0A1A41D8FD59E002C36D9 /* UITabBarItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Extension.h"; sourceTree = "<group>"; };
+		24D0A1A51D8FD59E002C36D9 /* UITabBarItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Extension.m"; sourceTree = "<group>"; };
+		24D0A1A61D8FD59E002C36D9 /* UITableView+CYTableViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CYTableViewExtension.h"; sourceTree = "<group>"; };
+		24D0A1A71D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CYTableViewExtension.m"; sourceTree = "<group>"; };
+		24D0A1A81D8FD59E002C36D9 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		24D0A1A91D8FD59E002C36D9 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		24D0A1BB1D8FD674002C36D9 /* swift_bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swift_bridge.h; sourceTree = "<group>"; };
 		24DD23C81D8F875800B4F427 /* BKDouyuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKDouyuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DD23D01D8F875800B4F427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24DD23D21D8F875800B4F427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24DD23D51D8F875800B4F427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DD23D71D8F875800B4F427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24DD23DC1D8F875900B4F427 /* BKDouyuTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKDouyuTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DD23E01D8F875900B4F427 /* BKDouyuTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BKDouyuTVTests.swift; sourceTree = "<group>"; };
@@ -48,9 +116,14 @@
 		24DD23EB1D8F875900B4F427 /* BKDouyuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BKDouyuTVUITests.swift; sourceTree = "<group>"; };
 		24DD23ED1D8F875900B4F427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24DD24011D8F882300B4F427 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24DD24031D8F884500B4F427 /* BKTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKTabBarController.swift; sourceTree = "<group>"; };
 		24DD24051D8F892400B4F427 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		24DD24081D8F89E400B4F427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BKDouyuTV/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		36C83E8F8DDA7CFD42ACEBB2 /* Pods_BKDouyuTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BKDouyuTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51628AD118D8957448ED63A4 /* Pods-BKDouyuTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKDouyuTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKDouyuTV/Pods-BKDouyuTV.debug.xcconfig"; sourceTree = "<group>"; };
+		620E2A1D1DA08860D26F797D /* Pods-BKDouyuTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKDouyuTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKDouyuTV/Pods-BKDouyuTV.release.xcconfig"; sourceTree = "<group>"; };
+		7382575C99F528A6727389FA /* Pods_BKDouyuTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BKDouyuTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00BE072CAD9062B1053B3AE /* Pods-BKDouyuTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKDouyuTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKDouyuTVTests/Pods-BKDouyuTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4593EDA17EFD807769AD1EB /* Pods-BKDouyuTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKDouyuTVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKDouyuTVTests/Pods-BKDouyuTVTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A607BE07A2F25E1E4E63D6B /* Pods_BKDouyuTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2FADBDA173F75AD6DC02CB /* Pods_BKDouyuTVTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +153,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24612ACE1D8F8E0B003D704D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				24612AD71D8FAFDE003D704D /* BKWelcomeViewController.swift */,
+				24612AD81D8FAFDE003D704D /* BKWelcomeViewController.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		24612ACF1D8F8E0B003D704D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				24612AEE1D8FB59F003D704D /* BKLivingViewController.swift */,
+				24612AEF1D8FB59F003D704D /* BKLivingViewController.xib */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		24612AD01D8F8E0B003D704D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				24612AEA1D8FB577003D704D /* BKHomeViewController.swift */,
+				24D0A18F1D8FD385002C36D9 /* BKRecommendViewController.swift */,
+				24D0A1901D8FD385002C36D9 /* BKRecommendViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		24612AE01D8FB542003D704D /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				24612AE61D8FB562003D704D /* BKFollowVIewController.swift */,
+				24612AE71D8FB562003D704D /* BKFollowVIewController.xib */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		24612AE11D8FB542003D704D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				24612AE21D8FB552003D704D /* BKProflieViewController.swift */,
+				24612AE31D8FB552003D704D /* BKProflieViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		24612AF21D8FB6DD003D704D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24612AF31D8FB6DD003D704D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24612AF71D8FB701003D704D /* BKSegmentControlView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24612AF41D8FB6DD003D704D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24612AF51D8FB6DD003D704D /* BKTabBarController.swift */,
+				24D0A1931D8FD398002C36D9 /* BKBaseViewController.swift */,
+				24D0A1951D8FD4AF002C36D9 /* BKNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24D0A1971D8FD59E002C36D9 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				24D0A1981D8FD59E002C36D9 /* BKFoundationExtension.swift */,
+				24D0A1991D8FD59E002C36D9 /* BKStringExtension.swift */,
+				24D0A19A1D8FD59E002C36D9 /* BKTableViewExtension.swift */,
+				24D0A19B1D8FD59E002C36D9 /* NSLayoutConstraintExtension.swift */,
+				24D0A19C1D8FD59E002C36D9 /* NSObject+IvarNull.h */,
+				24D0A19D1D8FD59E002C36D9 /* NSObject+IvarNull.m */,
+				24D0A19E1D8FD59E002C36D9 /* NSString+Extension.h */,
+				24D0A19F1D8FD59E002C36D9 /* NSString+Extension.m */,
+				24D0A1A01D8FD59E002C36D9 /* NSStringExtension.swift */,
+				24D0A1A11D8FD59E002C36D9 /* SwiftColorLog.swift */,
+				24D0A1A21D8FD59E002C36D9 /* UIColorExtension.swift */,
+				24D0A1A31D8FD59E002C36D9 /* UIImageExtension.swift */,
+				24D0A1A41D8FD59E002C36D9 /* UITabBarItem+Extension.h */,
+				24D0A1A51D8FD59E002C36D9 /* UITabBarItem+Extension.m */,
+				24D0A1A61D8FD59E002C36D9 /* UITableView+CYTableViewExtension.h */,
+				24D0A1A71D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m */,
+				24D0A1A81D8FD59E002C36D9 /* UIViewControllerExtension.swift */,
+				24D0A1A91D8FD59E002C36D9 /* UIViewExtension.swift */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
 		24DD23BF1D8F875800B4F427 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +256,8 @@
 				24DD23DF1D8F875900B4F427 /* BKDouyuTVTests */,
 				24DD23EA1D8F875900B4F427 /* BKDouyuTVUITests */,
 				24DD23C91D8F875800B4F427 /* Products */,
+				F60EC214BC25DA23AA3982CB /* Pods */,
+				9D647C53B29F66509FCC407F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,7 +316,9 @@
 		24DD23FA1D8F87F500B4F427 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				24DD24031D8F884500B4F427 /* BKTabBarController.swift */,
+				24612AF21D8FB6DD003D704D /* Model */,
+				24612AF31D8FB6DD003D704D /* View */,
+				24612AF41D8FB6DD003D704D /* Controller */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -151,6 +326,7 @@
 		24DD23FB1D8F87F500B4F427 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				24D0A1971D8FD59E002C36D9 /* Categorys */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -158,6 +334,7 @@
 		24DD23FC1D8F87F500B4F427 /* Roots */ = {
 			isa = PBXGroup;
 			children = (
+				24612AD51D8F926A003D704D /* CYLayoutConstraint.swift */,
 			);
 			path = Roots;
 			sourceTree = "<group>";
@@ -172,6 +349,11 @@
 		24DD23FE1D8F87F500B4F427 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				24612AE01D8FB542003D704D /* Follow */,
+				24612AE11D8FB542003D704D /* Profile */,
+				24612ACE1D8F8E0B003D704D /* Welcome */,
+				24612ACF1D8F8E0B003D704D /* Live */,
+				24612AD01D8F8E0B003D704D /* Home */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -180,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				24DD24011D8F882300B4F427 /* AppDelegate.swift */,
+				24D0A1BB1D8FD674002C36D9 /* swift_bridge.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -188,11 +371,32 @@
 			isa = PBXGroup;
 			children = (
 				24DD23CF1D8F875800B4F427 /* Main.storyboard */,
+				24612ADE1D8FB1E9003D704D /* profile.storyboard */,
+				24612ADB1D8FB1DB003D704D /* Follow.storyboard */,
 				24DD24071D8F89E400B4F427 /* Live.storyboard */,
 				24DD24051D8F892400B4F427 /* Home.storyboard */,
-				24DD23D41D8F875800B4F427 /* LaunchScreen.storyboard */,
 			);
 			path = Nibs;
+			sourceTree = "<group>";
+		};
+		9D647C53B29F66509FCC407F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7382575C99F528A6727389FA /* Pods_BKDouyuTV.framework */,
+				36C83E8F8DDA7CFD42ACEBB2 /* Pods_BKDouyuTVTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F60EC214BC25DA23AA3982CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51628AD118D8957448ED63A4 /* Pods-BKDouyuTV.debug.xcconfig */,
+				620E2A1D1DA08860D26F797D /* Pods-BKDouyuTV.release.xcconfig */,
+				B4593EDA17EFD807769AD1EB /* Pods-BKDouyuTVTests.debug.xcconfig */,
+				A00BE072CAD9062B1053B3AE /* Pods-BKDouyuTVTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +406,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24DD23F01D8F875900B4F427 /* Build configuration list for PBXNativeTarget "BKDouyuTV" */;
 			buildPhases = (
+				481AA0A22796609FA9BEE8F4 /* Check Pods Manifest.lock */,
 				24DD23C41D8F875800B4F427 /* Sources */,
 				24DD23C51D8F875800B4F427 /* Frameworks */,
 				24DD23C61D8F875800B4F427 /* Resources */,
+				A89F5F8CDD06EC1BE639D794 /* Embed Pods Frameworks */,
+				E49817D49020860591F352CE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,9 +426,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24DD23F31D8F875900B4F427 /* Build configuration list for PBXNativeTarget "BKDouyuTVTests" */;
 			buildPhases = (
+				348F6B5BDC7D084B9C2318A0 /* Check Pods Manifest.lock */,
 				24DD23D81D8F875900B4F427 /* Sources */,
 				24DD23D91D8F875900B4F427 /* Frameworks */,
 				24DD23DA1D8F875900B4F427 /* Resources */,
+				384295E75104CD9FDEEEE007 /* Embed Pods Frameworks */,
+				C6C6F60E104E22BF67877177 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,11 +515,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD23D61D8F875800B4F427 /* LaunchScreen.storyboard in Resources */,
+				24612ADF1D8FB1E9003D704D /* profile.storyboard in Resources */,
+				24612AE51D8FB552003D704D /* BKProflieViewController.xib in Resources */,
 				24DD23D31D8F875800B4F427 /* Assets.xcassets in Resources */,
 				24DD23D11D8F875800B4F427 /* Main.storyboard in Resources */,
+				24D0A1921D8FD385002C36D9 /* BKRecommendViewController.xib in Resources */,
+				24612AF11D8FB59F003D704D /* BKLivingViewController.xib in Resources */,
 				24DD24091D8F89E400B4F427 /* Live.storyboard in Resources */,
+				24612AE91D8FB562003D704D /* BKFollowVIewController.xib in Resources */,
+				24612ADA1D8FAFDE003D704D /* BKWelcomeViewController.xib in Resources */,
 				24DD24061D8F892400B4F427 /* Home.storyboard in Resources */,
+				24612ADD1D8FB1DB003D704D /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,13 +545,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		348F6B5BDC7D084B9C2318A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		384295E75104CD9FDEEEE007 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKDouyuTVTests/Pods-BKDouyuTVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481AA0A22796609FA9BEE8F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A89F5F8CDD06EC1BE639D794 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKDouyuTV/Pods-BKDouyuTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C6F60E104E22BF67877177 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKDouyuTVTests/Pods-BKDouyuTVTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49817D49020860591F352CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BKDouyuTV/Pods-BKDouyuTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24DD23C41D8F875800B4F427 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD24041D8F884500B4F427 /* BKTabBarController.swift in Sources */,
+				24D0A1B11D8FD59E002C36D9 /* SwiftColorLog.swift in Sources */,
+				24612AE41D8FB552003D704D /* BKProflieViewController.swift in Sources */,
+				24D0A1B61D8FD59E002C36D9 /* UIViewControllerExtension.swift in Sources */,
+				24612AD91D8FAFDE003D704D /* BKWelcomeViewController.swift in Sources */,
+				24D0A1AA1D8FD59E002C36D9 /* BKFoundationExtension.swift in Sources */,
+				24D0A1AB1D8FD59E002C36D9 /* BKStringExtension.swift in Sources */,
+				24D0A1911D8FD385002C36D9 /* BKRecommendViewController.swift in Sources */,
+				24612AE81D8FB562003D704D /* BKFollowVIewController.swift in Sources */,
+				24D0A1B41D8FD59E002C36D9 /* UITabBarItem+Extension.m in Sources */,
+				24612AF81D8FB701003D704D /* BKSegmentControlView.swift in Sources */,
+				24D0A1B21D8FD59E002C36D9 /* UIColorExtension.swift in Sources */,
+				24D0A1AF1D8FD59E002C36D9 /* NSString+Extension.m in Sources */,
+				24D0A1AD1D8FD59E002C36D9 /* NSLayoutConstraintExtension.swift in Sources */,
+				24612AF01D8FB59F003D704D /* BKLivingViewController.swift in Sources */,
 				24DD24021D8F882300B4F427 /* AppDelegate.swift in Sources */,
+				24612AEC1D8FB577003D704D /* BKHomeViewController.swift in Sources */,
+				24D0A1961D8FD4AF002C36D9 /* BKNavigationController.swift in Sources */,
+				24D0A1B31D8FD59E002C36D9 /* UIImageExtension.swift in Sources */,
+				24D0A1B51D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m in Sources */,
+				24D0A1941D8FD398002C36D9 /* BKBaseViewController.swift in Sources */,
+				24612AD61D8F926A003D704D /* CYLayoutConstraint.swift in Sources */,
+				24612AF61D8FB6DD003D704D /* BKTabBarController.swift in Sources */,
+				24D0A1B71D8FD59E002C36D9 /* UIViewExtension.swift in Sources */,
+				24D0A1AE1D8FD59E002C36D9 /* NSObject+IvarNull.m in Sources */,
+				24D0A1AC1D8FD59E002C36D9 /* BKTableViewExtension.swift in Sources */,
+				24D0A1B01D8FD59E002C36D9 /* NSStringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,21 +704,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		24612ADB1D8FB1DB003D704D /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24612ADC1D8FB1DB003D704D /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
 		24DD23CF1D8F875800B4F427 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				24DD23D01D8F875800B4F427 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		24DD23D41D8F875800B4F427 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24DD23D51D8F875800B4F427 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			path = ../..;
 			sourceTree = "<group>";
 		};
@@ -442,10 +774,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -485,40 +819,51 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		24DD23F11D8F875900B4F427 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51628AD118D8957448ED63A4 /* Pods-BKDouyuTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XD3776868Q;
 				INFOPLIST_FILE = BKDouyuTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.douyutv.demo.BKDouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/BKDouyuTV/Classes/Other/swift_bridge.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		24DD23F21D8F875900B4F427 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620E2A1D1DA08860D26F797D /* Pods-BKDouyuTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = XD3776868Q;
 				INFOPLIST_FILE = BKDouyuTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.douyutv.demo.BKDouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/BKDouyuTV/Classes/Other/swift_bridge.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		24DD23F41D8F875900B4F427 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4593EDA17EFD807769AD1EB /* Pods-BKDouyuTVTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +879,7 @@
 		};
 		24DD23F51D8F875900B4F427 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00BE072CAD9062B1053B3AE /* Pods-BKDouyuTVTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -594,6 +940,7 @@
 				24DD23F21D8F875900B4F427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24DD23F31D8F875900B4F427 /* Build configuration list for PBXNativeTarget "BKDouyuTVTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +949,7 @@
 				24DD23F51D8F875900B4F427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24DD23F61D8F875900B4F427 /* Build configuration list for PBXNativeTarget "BKDouyuTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +958,7 @@
 				24DD23F81D8F875900B4F427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

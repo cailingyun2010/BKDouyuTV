@@ -6,10 +6,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--直播-->
         <scene sceneID="GZl-dL-bT5">
             <objects>
-                <navigationController id="cxs-xr-7W1" sceneMemberID="viewController">
+                <navigationController id="cxs-xr-7W1" customClass="BKNavigationController" customModule="BKDouyuTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="直播" image="btn_column_normal" selectedImage="btn_column_selected" id="aWE-g3-rqH"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tGY-VX-qPF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -20,12 +22,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvx-6b-05p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1145" y="-1777"/>
+            <point key="canvasLocation" x="1650" y="-1821"/>
         </scene>
-        <!--直播-->
+        <!--Living View Controller-->
         <scene sceneID="64s-UJ-idl">
             <objects>
-                <viewController id="00a-Fx-9E4" sceneMemberID="viewController">
+                <viewController id="00a-Fx-9E4" customClass="BKLivingViewController" customModule="BKDouyuTV" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2au-rX-Uh2"/>
                         <viewControllerLayoutGuide type="bottom" id="kUr-Wh-HYH"/>
@@ -33,9 +35,8 @@
                     <view key="view" contentMode="scaleToFill" id="DU9-cM-LWb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.98406645520000002" green="1" blue="0.48747552319999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="直播" id="w9L-1Z-dl5"/>
                     <navigationItem key="navigationItem" id="XuN-Mc-1Wo"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -44,4 +45,8 @@
             <point key="canvasLocation" x="2103" y="-1777"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn_column_normal" width="24" height="24"/>
+        <image name="btn_column_selected" width="24" height="24"/>
+    </resources>
 </document>

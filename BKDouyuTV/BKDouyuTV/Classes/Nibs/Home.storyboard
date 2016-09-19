@@ -6,10 +6,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--首页-->
         <scene sceneID="W40-MN-rfI">
             <objects>
-                <navigationController id="4HH-5j-ExQ" sceneMemberID="viewController">
+                <navigationController id="4HH-5j-ExQ" customClass="BKNavigationController" customModule="BKDouyuTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" selectedImage="btn_home_selected" id="Y44-JI-rkJ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Bg-YZ-YRV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -22,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-569" y="-2141"/>
         </scene>
-        <!--首页-->
+        <!--Home View Controller-->
         <scene sceneID="wJu-SC-3AP">
             <objects>
-                <viewController id="OyC-d0-U2d" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="OyC-d0-U2d" customClass="BKHomeViewController" customModule="BKDouyuTV" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XOz-P9-vVg"/>
                         <viewControllerLayoutGuide type="bottom" id="zr2-G8-UTv"/>
@@ -33,15 +35,32 @@
                     <view key="view" contentMode="scaleToFill" id="4DJ-G0-hpv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.99654492780000004" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EP6-An-5l2">
+                                <color key="backgroundColor" red="1" green="0.32559294502618708" blue="0.070964421827612534" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zr2-G8-UTv" firstAttribute="top" secondItem="EP6-An-5l2" secondAttribute="bottom" id="9uj-Ze-l0e"/>
+                            <constraint firstItem="EP6-An-5l2" firstAttribute="leading" secondItem="4DJ-G0-hpv" secondAttribute="leading" id="IZc-8g-KBD"/>
+                            <constraint firstItem="EP6-An-5l2" firstAttribute="top" secondItem="XOz-P9-vVg" secondAttribute="bottom" constant="44" id="lfj-hP-arE"/>
+                            <constraint firstAttribute="trailing" secondItem="EP6-An-5l2" secondAttribute="trailing" id="wMR-sJ-2OX"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="首页" id="3mf-7S-hcZ"/>
                     <navigationItem key="navigationItem" id="2QK-mZ-21R"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="scrollView" destination="EP6-An-5l2" id="K45-Ri-2nZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MjQ-NN-bZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="676" y="-2141"/>
+            <point key="canvasLocation" x="121" y="-2196"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn_home_normal" width="24" height="24"/>
+        <image name="btn_home_selected" width="24" height="24"/>
+    </resources>
 </document>

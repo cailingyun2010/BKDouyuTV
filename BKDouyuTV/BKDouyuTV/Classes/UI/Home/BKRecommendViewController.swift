@@ -1,5 +1,5 @@
 //
-//  BKTabBarController.swift
+//  BKRecommendViewController.swift
 //  BKDouyuTV
 //
 //  Created by 董招兵 on 2016/9/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BKTabBarController: UITabBarController {
+class BKRecommendViewController: BKBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
