@@ -36,7 +36,6 @@
 		24D0A1B11D8FD59E002C36D9 /* SwiftColorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A11D8FD59E002C36D9 /* SwiftColorLog.swift */; };
 		24D0A1B21D8FD59E002C36D9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A21D8FD59E002C36D9 /* UIColorExtension.swift */; };
 		24D0A1B31D8FD59E002C36D9 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A31D8FD59E002C36D9 /* UIImageExtension.swift */; };
-		24D0A1B41D8FD59E002C36D9 /* UITabBarItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A51D8FD59E002C36D9 /* UITabBarItem+Extension.m */; };
 		24D0A1B51D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A71D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m */; };
 		24D0A1B61D8FD59E002C36D9 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A81D8FD59E002C36D9 /* UIViewControllerExtension.swift */; };
 		24D0A1B71D8FD59E002C36D9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0A1A91D8FD59E002C36D9 /* UIViewExtension.swift */; };
@@ -47,6 +46,12 @@
 		24DD24021D8F882300B4F427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD24011D8F882300B4F427 /* AppDelegate.swift */; };
 		24DD24061D8F892400B4F427 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DD24051D8F892400B4F427 /* Home.storyboard */; };
 		24DD24091D8F89E400B4F427 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DD24071D8F89E400B4F427 /* Live.storyboard */; };
+		24F21CF81D8FE29D0079A65D /* BKGameViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F21CF61D8FE29D0079A65D /* BKGameViewCotroller.swift */; };
+		24F21CF91D8FE29D0079A65D /* BKGameViewCotroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F21CF71D8FE29D0079A65D /* BKGameViewCotroller.xib */; };
+		24F21CFC1D8FE2D60079A65D /* BKAmusementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F21CFA1D8FE2D60079A65D /* BKAmusementViewController.swift */; };
+		24F21CFD1D8FE2D60079A65D /* BKAmusementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F21CFB1D8FE2D60079A65D /* BKAmusementViewController.xib */; };
+		24F21D001D8FE3030079A65D /* BKInterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F21CFE1D8FE3030079A65D /* BKInterestViewController.swift */; };
+		24F21D011D8FE3030079A65D /* BKInterestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F21CFF1D8FE3030079A65D /* BKInterestViewController.xib */; };
 		6A607BE07A2F25E1E4E63D6B /* Pods_BKDouyuTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7382575C99F528A6727389FA /* Pods_BKDouyuTV.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,8 +103,6 @@
 		24D0A1A11D8FD59E002C36D9 /* SwiftColorLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColorLog.swift; sourceTree = "<group>"; };
 		24D0A1A21D8FD59E002C36D9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		24D0A1A31D8FD59E002C36D9 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		24D0A1A41D8FD59E002C36D9 /* UITabBarItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Extension.h"; sourceTree = "<group>"; };
-		24D0A1A51D8FD59E002C36D9 /* UITabBarItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Extension.m"; sourceTree = "<group>"; };
 		24D0A1A61D8FD59E002C36D9 /* UITableView+CYTableViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CYTableViewExtension.h"; sourceTree = "<group>"; };
 		24D0A1A71D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CYTableViewExtension.m"; sourceTree = "<group>"; };
 		24D0A1A81D8FD59E002C36D9 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -118,6 +121,12 @@
 		24DD24011D8F882300B4F427 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DD24051D8F892400B4F427 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		24DD24081D8F89E400B4F427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BKDouyuTV/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		24F21CF61D8FE29D0079A65D /* BKGameViewCotroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKGameViewCotroller.swift; sourceTree = "<group>"; };
+		24F21CF71D8FE29D0079A65D /* BKGameViewCotroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKGameViewCotroller.xib; sourceTree = "<group>"; };
+		24F21CFA1D8FE2D60079A65D /* BKAmusementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKAmusementViewController.swift; sourceTree = "<group>"; };
+		24F21CFB1D8FE2D60079A65D /* BKAmusementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKAmusementViewController.xib; sourceTree = "<group>"; };
+		24F21CFE1D8FE3030079A65D /* BKInterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKInterestViewController.swift; sourceTree = "<group>"; };
+		24F21CFF1D8FE3030079A65D /* BKInterestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKInterestViewController.xib; sourceTree = "<group>"; };
 		36C83E8F8DDA7CFD42ACEBB2 /* Pods_BKDouyuTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BKDouyuTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51628AD118D8957448ED63A4 /* Pods-BKDouyuTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKDouyuTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKDouyuTV/Pods-BKDouyuTV.debug.xcconfig"; sourceTree = "<group>"; };
 		620E2A1D1DA08860D26F797D /* Pods-BKDouyuTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKDouyuTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKDouyuTV/Pods-BKDouyuTV.release.xcconfig"; sourceTree = "<group>"; };
@@ -177,6 +186,12 @@
 				24612AEA1D8FB577003D704D /* BKHomeViewController.swift */,
 				24D0A18F1D8FD385002C36D9 /* BKRecommendViewController.swift */,
 				24D0A1901D8FD385002C36D9 /* BKRecommendViewController.xib */,
+				24F21CF61D8FE29D0079A65D /* BKGameViewCotroller.swift */,
+				24F21CF71D8FE29D0079A65D /* BKGameViewCotroller.xib */,
+				24F21CFA1D8FE2D60079A65D /* BKAmusementViewController.swift */,
+				24F21CFB1D8FE2D60079A65D /* BKAmusementViewController.xib */,
+				24F21CFE1D8FE3030079A65D /* BKInterestViewController.swift */,
+				24F21CFF1D8FE3030079A65D /* BKInterestViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -239,8 +254,6 @@
 				24D0A1A11D8FD59E002C36D9 /* SwiftColorLog.swift */,
 				24D0A1A21D8FD59E002C36D9 /* UIColorExtension.swift */,
 				24D0A1A31D8FD59E002C36D9 /* UIImageExtension.swift */,
-				24D0A1A41D8FD59E002C36D9 /* UITabBarItem+Extension.h */,
-				24D0A1A51D8FD59E002C36D9 /* UITabBarItem+Extension.m */,
 				24D0A1A61D8FD59E002C36D9 /* UITableView+CYTableViewExtension.h */,
 				24D0A1A71D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m */,
 				24D0A1A81D8FD59E002C36D9 /* UIViewControllerExtension.swift */,
@@ -515,6 +528,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F21CF91D8FE29D0079A65D /* BKGameViewCotroller.xib in Resources */,
 				24612ADF1D8FB1E9003D704D /* profile.storyboard in Resources */,
 				24612AE51D8FB552003D704D /* BKProflieViewController.xib in Resources */,
 				24DD23D31D8F875800B4F427 /* Assets.xcassets in Resources */,
@@ -523,7 +537,9 @@
 				24612AF11D8FB59F003D704D /* BKLivingViewController.xib in Resources */,
 				24DD24091D8F89E400B4F427 /* Live.storyboard in Resources */,
 				24612AE91D8FB562003D704D /* BKFollowVIewController.xib in Resources */,
+				24F21CFD1D8FE2D60079A65D /* BKAmusementViewController.xib in Resources */,
 				24612ADA1D8FAFDE003D704D /* BKWelcomeViewController.xib in Resources */,
+				24F21D011D8FE3030079A65D /* BKInterestViewController.xib in Resources */,
 				24DD24061D8F892400B4F427 /* Home.storyboard in Resources */,
 				24612ADD1D8FB1DB003D704D /* Follow.storyboard in Resources */,
 			);
@@ -651,9 +667,10 @@
 				24D0A1AB1D8FD59E002C36D9 /* BKStringExtension.swift in Sources */,
 				24D0A1911D8FD385002C36D9 /* BKRecommendViewController.swift in Sources */,
 				24612AE81D8FB562003D704D /* BKFollowVIewController.swift in Sources */,
-				24D0A1B41D8FD59E002C36D9 /* UITabBarItem+Extension.m in Sources */,
+				24F21CF81D8FE29D0079A65D /* BKGameViewCotroller.swift in Sources */,
 				24612AF81D8FB701003D704D /* BKSegmentControlView.swift in Sources */,
 				24D0A1B21D8FD59E002C36D9 /* UIColorExtension.swift in Sources */,
+				24F21D001D8FE3030079A65D /* BKInterestViewController.swift in Sources */,
 				24D0A1AF1D8FD59E002C36D9 /* NSString+Extension.m in Sources */,
 				24D0A1AD1D8FD59E002C36D9 /* NSLayoutConstraintExtension.swift in Sources */,
 				24612AF01D8FB59F003D704D /* BKLivingViewController.swift in Sources */,
@@ -661,6 +678,7 @@
 				24612AEC1D8FB577003D704D /* BKHomeViewController.swift in Sources */,
 				24D0A1961D8FD4AF002C36D9 /* BKNavigationController.swift in Sources */,
 				24D0A1B31D8FD59E002C36D9 /* UIImageExtension.swift in Sources */,
+				24F21CFC1D8FE2D60079A65D /* BKAmusementViewController.swift in Sources */,
 				24D0A1B51D8FD59E002C36D9 /* UITableView+CYTableViewExtension.m in Sources */,
 				24D0A1941D8FD398002C36D9 /* BKBaseViewController.swift in Sources */,
 				24612AD61D8F926A003D704D /* CYLayoutConstraint.swift in Sources */,

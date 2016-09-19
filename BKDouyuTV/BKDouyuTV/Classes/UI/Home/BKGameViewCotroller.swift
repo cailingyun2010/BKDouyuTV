@@ -1,5 +1,5 @@
 //
-//  BKRecommendViewController.swift
+//  BKGameViewCotroller.swift
 //  BKDouyuTV
 //
 //  Created by 董招兵 on 2016/9/19.
@@ -8,14 +8,16 @@
 
 import UIKit
 
-class BKRecommendViewController: BKBaseViewController {
+class BKGameViewCotroller: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
         
+        
     }
 
-    
+   
+
 }
