@@ -33,9 +33,7 @@ class BKHomeViewController: BKBaseViewController , BKSegmentControlViewDelegate 
         let historyItem = UIBarButtonItem.init(image: UIImage.init(named: "image_my_history"), style: .Plain, target: self, action: nil)
         
         let barcodeItem = UIBarButtonItem.init(image: UIImage.init(named:"Image_scan"), style: .Plain, target: self, action: nil)
-        
         let searchItem  = UIBarButtonItem.init(image: UIImage.init(named : "btn_search"), style: .Plain, target: self, action: nil)
-        
         self.navigationItem.rightBarButtonItems = [barcodeItem,searchItem,historyItem]
 
     }
